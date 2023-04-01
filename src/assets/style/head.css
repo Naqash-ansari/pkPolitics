@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#head_link {
+    color: white !important;
+    text-decoration: none ;
+    font-size: 0.8rem;
+}
+#head_link:hover {
+    text-decoration: underline ;
+}
+#charity_title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: Lora, serif;
+    color: black;
+    text-decoration: underline;
+}
+#charity_text p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Lora, serif;
+    color: black;
+    padding: 1rem 1.5rem;
+    line-height: 1.5rem;
+    /* width: 60% !important; */
+}
+#img_grid{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+#img_grid img{
+    padding-top: 1.5rem;
+    width: 100%;
+    width: 40vh;
+}
+#img_grid p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Lora, serif';
+    text-transform: capitalize;
+}

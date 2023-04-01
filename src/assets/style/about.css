@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#about_context_grid{
+    height: 85vh;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0rem;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    margin-top: 1rem;
+}
+#about_context_grid-fixed{
+  position: fixed !important;
+  width: 24.2%;
+}
+#about-icon{
+    text-align: center;
+    margin-top: 1rem;
+}
+#about_sidebbar{
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#aboutLink{
+    text-decoration: none;
+    color: black;
+    font-family: Lora, serif;
+}
+#aboutLink:hover{
+    text-decoration: none;
+    color: green;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+@media(min-wudth:280px){
+    #video_set{
+        width: 100% !important;
+    }
+}
